@@ -1,7 +1,7 @@
 # my-blog<br>
 use beego/orm to create database,and insert,query,delete,update database<br>
 
-[beego.me](http://beego.me/)
+http://beego.me/<br>
 ###安装<br>
 进入cmd<br>
 ####执行go get github.com/astaxie/beego<br>
@@ -16,7 +16,7 @@ D:\GOPATH\src\github.com\astaxie<br>
 ####运行test<br>
 ![img](https://github.com/willkernel/my-blog/blob/master/pngs/runtestapp.png)<br>
 
-访问[http://127.0.0.1:8080/](http://127.0.0.1:8080/)<br>
+访问http://127.0.0.1:8080/<br>
 
 ####数据库配置<br>
 http://golanghome.com/post/289<br>
