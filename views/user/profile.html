@@ -1,0 +1,31 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+</head>
+<body>
+<div>
+	<form>
+		<table>
+			<tr>
+				<td>UserID:</td>
+				<td><input name="userid" value="{{.userid}}"></input></td>
+			</tr>
+			<tr>
+				<td>Tag:</td>
+				<td><input name="tag" value="{{.tag}}"></input></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input name="email" value="123@qq.com"></input></td>
+			</tr>
+			<tr>
+				<td>Hobby:</td>
+				<td><input name="hobby" value="{{range $index,$value := .hobby}}{{if $index}},{{end}}{{.}}{{end}}"></input></td>
+			</tr>
+		</table>
+	</form>
+	{{template "footer.html"}}
+</div>
+</body>
+</html>
