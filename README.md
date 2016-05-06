@@ -1,4 +1,5 @@
 # my-blog<br>
+this resp has a static html , run on localhost:8080/<br>
 use beego/orm to create database,and insert,query,delete,update database<br>
 
 http://beego.me/<br>
@@ -17,6 +18,7 @@ D:\GOPATH\src\github.com\astaxie<br>
 ![img](https://github.com/willkernel/my-blog/blob/master/pngs/runtestapp.png)<br>
 
 访问http://127.0.0.1:8080/<br>
+![img](https://github.com/willkernel/my-blog/blob/master/pngs/profilehtml.png)<br>
 
 ####数据库配置<br>
 http://golanghome.com/post/289<br>
